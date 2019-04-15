@@ -1,0 +1,171 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Lista de Exercícios - Formulário </title>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+</head>
+    <body>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html"> Página Inicial </a></li>
+                <li><a href="formulario.html"> Formulário de cadastro </a></li>
+                <li><a href="arvore_dom.html"> Árvore DOM </a></li>
+                <li><a href="tabela.html"> Tabela </a></li>
+            </ul>
+        <form>
+        <div>
+        <br>
+            Nome
+        </br>
+            <input type="text" id="Nome">
+        </div>
+
+
+        <div>
+        <br>
+            Sobrenome
+        </br>
+            <input type="text" id="Sobrenome">
+        </div>
+
+
+        <div>
+        <br>
+            Nascimento
+        </br>
+            <input type="date" id="Dia Mês Ano">
+        </div>
+
+
+        <div>
+        <br>
+            Identidade
+        </br>
+            <input type="text" id="Identidade">
+        </div>
+
+
+        <div>
+        <br>
+            CPF
+        </br>
+            <input type="text" id="CPF">
+        </div>
+
+
+        <div>
+        <br>
+            Sexo
+        </br>
+            <input type="radio" name="sex" value="male"> Masculino
+            <br>
+            <input type="radio" name="sex" value="female"> Feminino
+        </div>
+
+
+        <div>
+        <br>
+            Estado Civil
+        </br>
+        <select name="Estado_civil" id="Estado_civil">
+            <option value=""></option>
+            <option value="Solteiro"> Solteiro </option>
+            <option value="Casado"> Casado </option>
+            <option value="Separado"> Separado </option>
+            <option value="Divorciado"> Divorciado </option>
+            <option value="Viúvo"> Viúvo </option>
+            <option value="Amasiado"> Amasiado </option>
+        </select>
+        </div>
+
+        <div>
+        <br>
+            Telefone
+        </br>
+            <label for="phonenum"></label>
+            <input pattern="^\d{4}-\d{3}-\d{4}$" type="tel">
+        </div>
+
+        <div>
+        <br>
+            Celular
+        </br>
+            <label for="phonenum"></label>
+            <input pattern="^\d{4}-\d{3}-\d{4}$" type="tel">
+        </div>
+
+        <div>
+        <br>
+            E-mail
+        </br>
+            <input type="E-mail" id="E-mail"/>
+        </div>
+        
+        <div>
+        <br>
+            Endereço
+        </br>
+
+        <br>
+            Rua
+        </br>
+            <input type="text" name="Rua">
+
+        <br>
+            Número
+        </br>
+            <input type="text" name="Número" size="4">
+
+        <br>
+            Bairro
+        </br>
+            <input type="text" name="Bairro">
+
+            <br>
+            Estado
+        </br>
+        <select name="Estado"> 
+            <option value="ac">Acre</option> 
+            <option value="al">Alagoas</option> 
+            <option value="am">Amazonas</option> 
+            <option value="ap">Amapá</option> 
+            <option value="ba">Bahia</option> 
+            <option value="ce">Ceará</option> 
+            <option value="df">Distrito Federal</option> 
+            <option value="es">Espírito Santo</option> 
+            <option value="go">Goiás</option> 
+            <option value="ma">Maranhão</option> 
+            <option value="mt">Mato Grosso</option> 
+            <option value="ms">Mato Grosso do Sul</option> 
+            <option value="mg">Minas Gerais</option> 
+            <option value="pa">Pará</option> 
+            <option value="pb">Paraíba</option> 
+            <option value="pr">Paraná</option> 
+            <option value="pe">Pernambuco</option> 
+            <option value="pi">Piauí</option> 
+            <option value="rj">Rio de Janeiro</option> 
+            <option value="rn">Rio Grande do Norte</option> 
+            <option value="ro">Rondônia</option> 
+            <option value="rs">Rio Grande do Sul</option> 
+            <option value="rr">Roraima</option> 
+            <option value="sc">Santa Catarina</option> 
+            <option value="se">Sergipe</option> 
+            <option value="sp">São Paulo</option> 
+            <option value="to">Tocantins</option> 
+        </select>
+
+        <br>
+            Cidade
+        </br>
+            <input type="text" name="Cidade">
+        
+        <br>
+            CEP
+        </br>
+            <input type="text" name="CEP" size="5" maxlength="5"> - <input type="text" name="CEP2" size="3" maxlength="3">
+        </div>     
+    </form>
+</body>
+</html>
